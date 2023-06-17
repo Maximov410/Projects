@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,400;0,500;1,300&display=swap');
+
+body{
+    font-family: 'Roboto Condensed', sans-serif;
+    background: url(https://santreyd.ru/upload/iblock/182/182f1373271e1cac4a5c6039d207e2f2.jpg);
+    padding: 75px 0;
+}
+
+h1{
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+
+h2{
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    color: rgb(39, 39, 39);
+}
+
+h3{
+    font-size: 33px;
+    font-weight: bold;
+    margin-top: 7px;
+    margin-bottom: 5px;
+    color: rgb(39, 39, 39);
+}
+
+h4{
+    font-size: 35px;
+    color: rgb(39, 39, 39);
+}
+
+p{
+    font-size: 25px;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+    color: rgb(39, 39, 39);
+}
+
+a{
+    color: rgb(0, 0, 95);
+    text-decoration: none;
+}
+
+table{
+    margin: 0 auto;
+    background: rgb(70, 70, 70);
+    border: 1px solid rgb(70, 70, 70);
+}
+
+td{
+    font-size: 20px;
+    text-align: center;
+    border: 1px solid rgb(100, 100, 100);
+    padding: 6px;
+    background: rgb(100, 100, 100);
+}
+
+.container{
+    width: 1000px;
+    min-height: 700px;
+    border: 17px solid rgb(130, 130, 130);
+    margin: 0 auto;
+    background: rgb(130, 130, 130);
+}
+
+.header{
+    display: flex;
+    height: 175px;
+}
+
+.title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    height: 100%;
+    border: 2px solid #000;
+    font-size: 70px;
+    background: url("https://images.wallpaperscraft.ru/image/doroga_razmetka_povorot_121743_1680x1050.jpg") no-repeat center center / cover;
+    color: rgb(255, 255, 255);
+    margin-right: 5px;
+}
+
+.picture{
+    display: flex;
+    width: 40%;     
+    height: 100%;
+    border: 2px solid #000;
+    background: url('img/logos.jpg') no-repeat center center / cover;
+}
+
+.nav ul{
+    display: flex;
+    background: rgb(39, 39, 39);
+    margin: 10px 0;
+}
+
+.nav li a{
+    display: flex;
+    padding: 20px;
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    border-right: 1px solid #fff;
+    transition: background .7s ease;
+    transition: color .5s ease;
+}
+
+.nav li a:hover{
+    background: rgb(114, 114, 114);
+    color: rgb(39, 39, 39);
+}
+
+.contentcontainer{
+    display: flex;
+}
+
+.content{
+    width: 70%;
+    padding-left: 20px;
+    padding-right: 7px;
+}
+
+.sidebar{
+    display: grid;
+    width: 30%;
+    height: auto;
+    border: 2px solid #000;
+    margin-bottom: 10px;
+}
+
+.sidebarheader{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20%;
+    border: 2px solid #000;
+    font-size: 20px;
+    background: url("https://images.wallpaperscraft.ru/image/doroga_razmetka_povorot_121743_1680x1050.jpg") no-repeat center center / cover;
+    color: rgb(255, 255, 255);
+    margin: 5px;
+    padding: 20px;
+}
+
+.sidebarcontent{
+    height: 80%;
+}
+
+.sidebarcontent ul{
+    padding: 10px;
+}
+
+.sidebarcontent li a{
+    display: flex;
+    padding: 20px;
+    text-decoration: none;
+    color: #fff;
+    background: rgb(39, 39, 39);
+    border: 2px solid #000;
+    margin-bottom: 5px;
+    font-weight: bold;
+    font-size: 18px;
+    transition: background .7s ease;
+    transition: color .5s ease;
+    transition: transform .5s ease;
+}
+
+.sidebarcontent li a:hover{
+    background: rgb(114, 114, 114);
+    color: rgb(39, 39, 39);
+    transform: translateX(10px);
+}
+
+.contentcenter{
+    padding-left: 20px;
+}
